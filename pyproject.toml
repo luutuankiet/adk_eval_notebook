@@ -1,0 +1,12 @@
+[project]
+name = "tmp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "google-adk>=1.13.0",
+    "google-cloud-aiplatform[evaluation]>=1.111.0",
+    "ipykernel>=6.30.1",
+    "plotly>=6.3.0",
+]
